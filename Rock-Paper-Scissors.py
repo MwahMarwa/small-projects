@@ -19,7 +19,7 @@ while True:
       print('invalid responce')
       continue
     print('now its time for the computer to pick...')
-    computer_choice = random.randint(1, 3)
+    computer_choice = random.randint(1, 5)
     print(f'the computer plays {options[computer_choice]}')
     
     if player_choice == computer_choice:
